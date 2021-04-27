@@ -10,11 +10,11 @@
   <name>liquibase-demo</name>
  
   <dependencies>
-    <!-- PostgreSQL -->
+    <!-- Oracle -->
     <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>42.2.5</version>
+    <groupId>oracle</groupId>
+    <artifactId>oracle-jdbc</artifactId>
+    <version>12.1.0.2</version>
     </dependency>
 
     <!-- Liquibase -->
